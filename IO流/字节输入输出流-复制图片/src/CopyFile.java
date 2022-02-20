@@ -9,7 +9,7 @@ public class CopyFile {
         // 文件路径
         String courseFile = "";
         try {
-            // 获取项目路径 D:\LearnJava\IO流\demo\src\logo.png
+            // 获取项目路径 D:\LearnJava\IO流\demo
             courseFile = new File("").getCanonicalPath();
         } catch (IOException e) {
             e.printStackTrace();
