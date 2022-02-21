@@ -6,3 +6,4 @@
 - FileInputStream读取文件字节输入流
 - FileReader字符输入流
 - FileWriter字符输出流
+- BufferedReader处理流按行读取文本文件
