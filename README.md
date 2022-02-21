@@ -7,3 +7,4 @@
 - FileReader字符输入流
 - FileWriter字符输出流
 - BufferedReader处理流按行读取文本文件
+- BufferedWriter处理流写入字符到文本文件
