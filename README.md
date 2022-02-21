@@ -5,3 +5,4 @@
 - FileOutputStream输出-文件字节输出流
 - FileInputStream读取文件字节输入流
 - FileReader字符输入流
+- FileWriter字符输出流
