@@ -1,11 +1,12 @@
 # LearnJava
 ### IO流
 - 创建一个文件的3种方式
-- 文件字节输入流读取字节
 - FileOutputStream输出-文件字节输出流
 - FileInputStream读取文件字节输入流
+- 字节输入输出流-复制图片
 - FileReader字符输入流
 - FileWriter字符输出流
 - BufferedReader处理流按行读取文本文件
 - BufferedWriter处理流写入字符到文本文件
 - 使用BufferedReader和Writer拷贝文本文件
+- 使用BufferedInputStream和Output拷贝视频文件
