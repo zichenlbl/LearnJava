@@ -13,7 +13,7 @@ public class ReadConfigurationFile {
         BufferedReader bufferedReader = null;
         try {
             bufferedReader = new BufferedReader(new FileReader("src\\mysql.properties"));
-            String lineRead = "";
+            String lineRead;
             while ((lineRead = bufferedReader.readLine()) != null) {
                 // 读取第一行，解析，以=号分割成数组
                 String[] split = lineRead.split("=");
@@ -30,6 +30,15 @@ public class ReadConfigurationFile {
             }
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            // 关闭外部流
+            if (bufferedReader != null) {
+                try {
+                    bufferedReader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
